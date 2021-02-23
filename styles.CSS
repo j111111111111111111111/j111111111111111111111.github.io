@@ -1,6 +1,7 @@
 
-
-
+body{
+ background-color:red;
+}
 #login-dp{
 
  min-width: 250px;
