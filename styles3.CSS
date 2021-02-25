@@ -5,7 +5,8 @@ body {
     margin-top: 80px;  
     padding: 30px;  
     background-size: cover;  
-    font-family: sans-serif;  
+    font-family: sans-serif; 
+    background-image: url('iphone.jpg):
     }  
     header {  
     background-color: orange;  
