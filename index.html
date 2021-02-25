@@ -7,26 +7,27 @@
     </head> 
 
   <body>
-	   {% extends "base.html" %}
-
-    {% block body %}
-    
-    <div class="topnav">
-        {% if session.logged_in %}
-            <a href="/logout/">Logout</a>
-        {% else %}
-            <a href="login.html">Login</a>
-            <a href="register.html">Sign up</a>
-        {% endif %}
-    </div>
-    <hr>
-    
-    {% if session['logged_in'] %}
-        <h5>Welcome, {{session['username'] }}</h5>
-    {% endif %}
-    
-    {% endblock body %}
-
+	  <header>  
+<nav>  
+<ul>  
+<li>  
+<a href="index.html"> Home </a>  
+</li>  
+<li>  
+<a href="linux distrbutrion.html">Linux </a>  
+</li>  
+<li>  
+<a href="#"> Contact </a>  
+</li>  
+<li> <a href="#"> Terms of use </a>  
+</li>  
+<li>  
+<a href="#"> Join Us </a>  
+</li>  
+</ul>  
+</nav>  
+</header>  
+You are at JavaTpoint Site..... 
 	  
 
 	  
